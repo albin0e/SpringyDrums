@@ -1,0 +1,23 @@
+{
+  "slug": "MyPlugin",
+  "name": "Snare_Drum",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "ADE",
+  "author": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MyModule",
+      "name": "Snare_Drum",
+      "description": "",
+      "tags": []
+    }
+  ]
+}

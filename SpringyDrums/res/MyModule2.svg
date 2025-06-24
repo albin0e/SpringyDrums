@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="150HP"
+   height="380px"
+   viewBox="0 0 150 380"
+   version="1.1"
+   id="drum-module-svg">
+  <defs>
+    <linearGradient id="panel-gradient" x1="75" y1="0" x2="75" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Module background -->
+  <rect
+     style="fill:url(#panel-gradient);fill-opacity:1;stroke:none"
+     id="panel-background"
+     width="150"
+     height="380"
+     x="0"
+     y="0" />
+  
+  <!-- Grid overlay (for development, hidden in final) -->
+  <g id="grid-overlay" opacity="0.1">
+    <line x1="15" y1="0" x2="15" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="30" y1="0" x2="30" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="45" y1="0" x2="45" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="60" y1="0" x2="60" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="75" y1="0" x2="75" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="90" y1="0" x2="90" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="105" y1="0" x2="105" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="120" y1="0" x2="120" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="135" y1="0" x2="135" y2="380" stroke="#ffffff" stroke-width="0.5"/>
+    
+    <!-- Horizontal grid lines every 30px -->
+    <line x1="0" y1="30" x2="150" y2="30" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="60" x2="150" y2="60" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="90" x2="150" y2="90" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="150" y2="120" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="150" y2="150" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="180" x2="150" y2="180" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="210" x2="150" y2="210" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="150" y2="240" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="270" x2="150" y2="270" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="150" y2="300" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="330" x2="150" y2="330" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="360" x2="150" y2="360" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Screw positions -->
+  <circle
+     style="fill:none;stroke:#666666;stroke-width:0.5;stroke-dasharray:1,0.5;stroke-opacity:0.8"
+     id="screw-top-left"
+     cx="15"
+     cy="15"
+     r="5" />
+  <circle
+     style="fill:none;stroke:#666666;stroke-width:0.5;stroke-dasharray:1,0.5;stroke-opacity:0.8"
+     id="screw-top-right"
+     cx="120"
+     cy="15"
+     r="5" />
+  <circle
+     style="fill:none;stroke:#666666;stroke-width:0.5;stroke-dasharray:1,0.5;stroke-opacity:0.8"
+     id="screw-bottom-left"
+     cx="15"
+     cy="365"
+     r="5" />
+  <circle
+     style="fill:none;stroke:#666666;stroke-width:0.5;stroke-dasharray:1,0.5;stroke-opacity:0.8"
+     id="screw-bottom-right"
+     cx="120"
+     cy="365"
+     r="5" />
+  
+  <!-- Module title -->
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:bold;font-size:8px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#dddddd;fill-opacity:1;stroke:none"
+     x="75"
+     y="20"
+     id="module-title"><tspan
+       x="75"
+       y="20">DRUM MODULE</tspan></text>
+  
+  <!-- Left column knobs and labels -->
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none"
+     x="30"
+     y="50"
+     id="text-size"><tspan
+       x="30"
+       y="50">SIZE</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="size-knob-position"
+     cx="50"
+     cy="57"
+     r="8" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none"
+     x="30"
+     y="105"
+     id="text-tension"><tspan
+       x="30"
+       y="105">TENSION</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="tension-knob-position"
+     cx="50"
+     cy="112"
+     r="8" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none"
+     x="30"
+     y="160"
+     id="text-damping"><tspan
+       x="30"
+       y="160">DAMP</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="damping-knob-position"
+     cx="50"
+     cy="167"
+     r="8" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none"
+     x="30"
+     y="215"
+     id="text-strike-position"><tspan
+       x="30"
+       y="215">STRIKE</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="strike-pos-knob-position"
+     cx="50"
+     cy="222"
+     r="8" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none"
+     x="30"
+     y="270"
+     id="text-sustain"><tspan
+       x="30"
+       y="270">SUSTAIN</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="sustain-knob-position"
+     cx="50"
+     cy="277"
+     r="8" />
+  
+  <!-- Right column knobs and labels -->
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none;text-anchor:end"
+     x="120"
+     y="50"
+     id="text-snare-blend"><tspan
+       x="120"
+       y="50">SNARE</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="snare-blend-knob-position"
+     cx="100"
+     cy="57"
+     r="8" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none;text-anchor:end"
+     x="120"
+     y="105"
+     id="text-snare-tone"><tspan
+       x="120"
+       y="105">TONE</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="snare-tone-knob-position"
+     cx="100"
+     cy="112"
+     r="8" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none;text-anchor:end"
+     x="120"
+     y="160"
+     id="text-strike-force"><tspan
+       x="120"
+       y="160">FORCE</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="strike-force-knob-position"
+     cx="100"
+     cy="167"
+     r="8" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none;text-anchor:end"
+     x="120"
+     y="215"
+     id="text-pitch-bend"><tspan
+       x="120"
+       y="215">PITCH</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ff00;stroke-width:1;stroke-opacity:0.8"
+     id="pitch-bend-knob-position"
+     cx="100"
+     cy="222"
+     r="8" />
+  
+  <!-- Center drum graphic -->
+  <circle
+     style="fill:#333333;fill-opacity:0.5;stroke:#666666;stroke-width:1;stroke-opacity:0.8"
+     id="circle-drum"
+     cx="75"
+     cy="250"
+     r="20" />
+  
+  <!-- Separator line -->
+  <line
+     style="stroke:#666666;stroke-width:1;stroke-opacity:0.8"
+     x1="25"
+     y1="310"
+     x2="125"
+     y2="310" />
+  
+  <!-- Input/Output ports with highlights -->
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none;text-anchor:middle"
+     x="37"
+     y="325"
+     id="text-trigger"><tspan
+       x="37"
+       y="325">TRIG</tspan></text>
+  <circle
+     style="fill:none;stroke:#00ccff;stroke-width:1;stroke-opacity:0.8"
+     id="trigger-input-position"
+     cx="37"
+     cy="335"
+     r="7" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none;text-anchor:middle"
+     x="74"
+     y="325"
+     id="text-left-out"><tspan
+       x="74"
+       y="325">L</tspan></text>
+  <circle
+     style="fill:none;stroke:#ff6600;stroke-width:1;stroke-opacity:0.8"
+     id="left-output-position"
+     cx="74"
+     cy="335"
+     r="7" />
+  
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:6px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none;text-anchor:middle"
+     x="111"
+     y="325"
+     id="text-right-out"><tspan
+       x="111"
+       y="325">R</tspan></text>
+  <circle
+     style="fill:none;stroke:#ff6600;stroke-width:1;stroke-opacity:0.8"
+     id="right-output-position"
+     cx="111"
+     cy="335"
+     r="7" />
+  
+  <!-- Light -->
+  <circle
+     style="fill:none;stroke:#ffff00;stroke-width:1;stroke-opacity:0.8"
+     id="trigger-light-position"
+     cx="37"
+     cy="357.5"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:5px;line-height:1.25;font-family:sans-serif;fill:#dddddd;fill-opacity:1;stroke:none;text-anchor:middle"
+     x="37"
+     y="350"
+     id="text-light"><tspan
+       x="37"
+       y="350">LED</tspan></text>
+  
+  <!-- Version text -->
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:5px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#555555;fill-opacity:1;stroke:none"
+     x="75"
+     y="345"
+     id="text-version"><tspan
+       x="75"
+       y="345">v1.0</tspan></text>
+       
+  <!-- Coordinates display text for development -->
+  <g id="dev-coordinates" opacity="0.6">
+    <text
+       style="font-style:normal;font-weight:normal;font-size:4px;line-height:1.25;font-family:monospace;fill:#ffffff;stroke:none"
+       x="15"
+       y="30"
+       id="coordinates-screws"><tspan x="15" y="30">Screw: (15,15)</tspan></text>
+       
+    <text
+       style="font-style:normal;font-weight:normal;font-size:4px;line-height:1.25;font-family:monospace;fill:#ffffff;stroke:none"
+       x="45"
+       y="70"
+       id="coordinates-knob1"><tspan x="45" y="70">Knob: (50,57)</tspan></text>
+    
+    <text
+       style="font-style:normal;font-weight:normal;font-size:4px;line-height:1.25;font-family:monospace;fill:#ffffff;stroke:none"
+       x="95"
+       y="70"
+       id="coordinates-knob5"><tspan x="95" y="70">Knob: (100,57)</tspan></text>
+    
+    <text
+       style="font-style:normal;font-weight:normal;font-size:4px;line-height:1.25;font-family:monospace;fill:#ffffff;stroke:none"
+       x="32"
+       y="343"
+       id="coordinates-port"><tspan x="32" y="343">Port: (37,335)</tspan></text>
+  </g>
+</svg>
